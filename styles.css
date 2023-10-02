@@ -5,7 +5,7 @@
      }
     
     body {
-        font-family: "lato", sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: white;
     }
     
@@ -140,4 +140,114 @@
     .little-info {
         font-size: 15px;
         font-family: "poppins", sans-serif;
+    }
+    
+    /* .text {
+    
+    } */
+    
+    .lower-container {
+        color: #000000;
+        margin: 120px auto;
+        padding: 0%;
+        max-width: 1400px;
+        text-align: center;
+    }
+    
+    .tittle {
+        color: #000000;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    
+    .text {
+        color: black;
+        font-size: 20px;
+        width: 100%;
+        padding: 10px;
+        margin: 0 20px;
+        text-align: justify;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    .stats {
+        padding: 45px 50px;
+        text-align: center;
+        
+    }
+    .stat {
+        margin: 0 30px;
+        text-align: center;
+        width: 800px;
+    }
+    
+    .stats .fa {
+        color: orange;
+    }
+    
+    .tittle-container {
+        color: #000000;
+        text-align: center;
+    }
+    
+    .testimonial {
+        color: #000000;
+        padding: 40px;
+    }
+    .testimonial img {
+        height: 100%;
+        clip-path: circle();
+    }
+    
+    .testimonial h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    
+    }
+    
+    .card {
+        padding: 10px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: -7px -7px 20px rgb(0,0,0,0.2),
+                    7px 7px 20px rgb(0, 0, 0, 0.2);
+    }
+    
+    .circle {
+        background-color: transparent;
+        border: 3px solid orange;
+        height: 90px;
+        width: 90px;
+        position: relative;
+        top: -30px;
+        left: 120px;
+        border-radius: 50%;
+    }
+    footer{
+        background-attachment: orange;
+        padding: 20px 10px;
+
+    }
+    footer a{
+        color: white;
+        margin: 0 10px;
+
+
+    }
+    footer a:hover{
+
+        color: #87a3bc;
+        border-bottom: 3px solid white;
     }
